@@ -7,6 +7,7 @@
     </head>
     <body>
         <div class="big-container">
+            <!-- Start Data Entry block -->
         <div class="container data-entry">
             <h2>calcola il prezzo del tuo biglietto</h2>
             <div class="data-entry-card">
@@ -17,11 +18,11 @@
                     </div>
                     <div id="distance">
                         <h5>Km da percorrere</h5>
-                        <input type="number" name="" value="">
+                        <input id="distance-input" type="number" name="" value="">
                     </div>
                     <div id="age">
                         <h5>fascia d'età</h5>
-                        <input type="text" name="" value="">
+                        <input id="age-input" type="text" name="" value="">
                     </div>
                 </div>
                 <div class="card-bottom">
@@ -30,6 +31,7 @@
                 </div>
             </div>
         </div>
+        <!-- Start Ticket block -->
         <div class="container ticket-data">
             <h2>il tuo biglietto</h2>
             <div class="ticket-card">
@@ -39,7 +41,7 @@
                         <h4>nome passeggero</h4>
                         <div class="name"></div>
                     </div>
-                    <!--  tabella per biglietto -->
+                    <!--  ticket table -->
                     <table >
                         <tr>
                             <th>Offerta</th>
@@ -49,7 +51,7 @@
                         </tr>
                         <tr>
                             <td id="offerta"></td>
-                            <td id="carozza"></td>
+                            <td id="carrozza"></td>
                             <td id="codice-cp"></td>
                             <td id="costo"></td>
 
