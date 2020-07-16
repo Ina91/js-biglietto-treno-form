@@ -1,0 +1,93 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.big-container{
+    /* max-width: 1200px; */
+    height: 100vh;
+    background-color: #b91450;
+    color : white;
+    margin:0 auto;
+
+}
+
+.container {
+    width: 70%;
+    margin : 0 auto;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+h2{
+    padding: 30px 0;
+}
+.data-entry-card {
+    width: 100%;
+    padding: 30px 0;
+    background-color: white;
+    color: #b91450;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightgrey;
+
+}
+.card-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-top input {
+    border:1px solid #b91450;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card-bottom {
+    padding-top: 40px;
+}
+.card-bottom button {
+    font-weight: bold;
+    color: #b91450;
+    border:1px solid #b91450;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ticket-data{
+    text-align: left;
+}
+.ticket-card{
+    width: 100%;
+    padding: 30px 0;
+    background-color: white;
+    color:black;
+}
+
+.details{
+    display: flex;
+}
+.client-name {
+    width: 200px;
+    height:150px;
+    background-color: gray;
+}
+table{
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+}
+th,
+td{
+    padding :  20px;
+}

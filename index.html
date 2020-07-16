@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Biglietto del Treno</title>
+    </head>
+    <body>
+        <div class="big-container">
+        <div class="container data-entry">
+            <h2>calcola il prezzo del tuo biglietto</h2>
+            <div class="data-entry-card">
+                <div class="card-top">
+                    <div id="client">
+                        <h5>nome cognome</h5>
+                        <input type="text" name="" value="">
+                    </div>
+                    <div id="distance">
+                        <h5>Km da percorrere</h5>
+                        <input type="number" name="" value="">
+                    </div>
+                    <div id="age">
+                        <h5>fascia d'età</h5>
+                        <input type="text" name="" value="">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <button type="button" name="button">Genera</button>
+                    <button type="button" name="button">Annulla</button>
+                </div>
+            </div>
+        </div>
+        <div class="container ticket-data">
+            <h2>il tuo biglietto</h2>
+            <div class="ticket-card">
+                <h3>dettaglio passegeri</h3>
+                <div class="details">
+                    <div class="client-name">
+                        <h4>nome passeggero</h4>
+                        <div class="name"></div>
+                    </div>
+                    <!--  tabella per biglietto -->
+                    <table >
+                        <tr>
+                            <th>Offerta</th>
+                            <th>Carrozza</th>
+                            <th>Codice Cp</th>
+                            <th>Costo del biglietto</th>
+                        </tr>
+                        <tr>
+                            <td id="offerta"></td>
+                            <td id="carozza"></td>
+                            <td id="codice-cp"></td>
+                            <td id="costo"></td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>
