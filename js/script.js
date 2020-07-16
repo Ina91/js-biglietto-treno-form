@@ -1,14 +1,14 @@
-//comparsa biglietto al click
-var displayHidden = document.getElementById('ticket-data').className = "display-hidden";
+//Blocco biglietto inizialmente non visibile
+document.getElementById('ticket-data').className = "display-hidden";
 
+// comparsa biglietto al click genera
 document.getElementById("genera").addEventListener("click",display);
-
 function display(){
     var displayBlock = document.getElementById('ticket-data').className = "display-Block";
 }
 
+// scomparsa biglietto al click annulla
 document.getElementById("annulla").addEventListener("click",display2);
-
 function display2(){
     var displayHidden = document.getElementById('ticket-data').className = "display-hidden";
 
@@ -68,3 +68,6 @@ function carrozzaFunction(carro){
      document.getElementById('costo').innerHTML = costo.toPrecision(3) + '€';
 
  }
+
+
+ 
