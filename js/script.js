@@ -1,3 +1,27 @@
+//comparsa biglietto al click
+var displayHidden = document.getElementById('ticket-data').className = "display-hidden";
+
+document.getElementById("genera").addEventListener("click",display);
+
+function display(){
+    var displayBlock = document.getElementById('ticket-data').className = "display-Block";
+}
+
+document.getElementById("annulla").addEventListener("click",display2);
+
+function display2(){
+    var displayHidden = document.getElementById('ticket-data').className = "display-hidden";
+
+}
+
+
+//nome passeggero
+document.getElementById("genera").addEventListener("click",nameFunction);
+function nameFunction() {
+    var nome =document.getElementById('input-name').value;
+    document.getElementById('name').innerHTML = nome;
+}
+
 // sconto
 document.getElementById("genera").addEventListener("click",offertaFunction );
 function offertaFunction() {
