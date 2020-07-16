@@ -7,6 +7,7 @@
  document.getElementById('codice-cp').innerHTML = codiceCp;
 
  // costo biglietto
+ document.getElementById("genera").addEventListener("click", miaFunzione);
  function miaFunzione(distanza,eta,costo) {
     var distanza = document.getElementById('distance-input').value;
     var eta = document.getElementById('age-input').value;
@@ -18,6 +19,6 @@
     }else if (eta>65) {
         costo *= 0.6;
     }
-    document.getElementById('costo').innerHTML =  + costo.toPrecision(3) + '€';
+    document.getElementById('costo').innerHTML = costo.toPrecision(3) + '€';
 
 }
